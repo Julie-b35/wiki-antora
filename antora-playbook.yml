@@ -7,7 +7,9 @@ content:
   - url: https://github.com/Julie-b35/wiki-docs.git
     branches: HEAD
     edit_url: false
-    start_path: wiki
+    start_paths: 
+    - wiki
+    - cours
 runtime:
   fetch: true
 asciidoc:
