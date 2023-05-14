@@ -1,7 +1,7 @@
 site:
   title: Laboratoire de Julie
   url: https://github.com/Julie-b35/wiki-antora.git
-  start_page: docs:index.adoc
+  start_page: docs::index.adoc
 content:
   sources:
   - url: https://github.com/Julie-b35/wiki-docs.git
