@@ -9,3 +9,5 @@ services:
       - ./build/site:/usr/local/apache2/htdocs
   antora:
     image: "antora/antora:latest"
+    volumes:
+      - .:/antora
