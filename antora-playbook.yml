@@ -1,6 +1,6 @@
 site:
   title: Laboratoire de Julie
-  url: https://github.com/Julie-b35/wiki-antora.git
+  url: http://vpn.jlab.ovh
   start_page: docs::index.adoc
 content:
   sources:
