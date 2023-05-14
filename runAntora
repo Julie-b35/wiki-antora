@@ -2,4 +2,5 @@
 
  #git clone https://github.com/Julie-b35/wiki-antora.git docs &&  cd "$(basename $_ .git)"
 
- docker compose run antora antora-playbook.yml
+cd /home/julie/wiki
+docker compose run antora antora-playbook.yml
