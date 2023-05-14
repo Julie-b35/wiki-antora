@@ -5,6 +5,7 @@ services:
     ports:
       - "8000:80"
     volumes:
+      - ./conf:/usr/local/apache2/conf
       - ./build/site:/usr/local/apache2/htdocs
   antora:
     image: "antora/antora:latest"
