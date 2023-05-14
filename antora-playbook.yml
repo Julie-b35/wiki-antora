@@ -1,12 +1,15 @@
 site:
   title: Laboratoire de Julie
   url: http://vpn.jlab.ovh
-  start_page: docs::index.adoc
+  start_page: accueil::index.adoc
 content:
   sources:
   - url: https://github.com/Julie-b35/wiki-docs.git
   branches: HEAD
   edit_url: false
+  start_path: accueil
+runtime:
+  fetch: true
 asciidoc:
   attributes:
     experimental: ''
