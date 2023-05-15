@@ -10,6 +10,12 @@ content:
     start_paths: 
     - wiki
     - cours
+  - url: https://gitlab.com/antora/demo/demo-component-b.git
+    branches: [main, v2.0, v1.0]
+    start_path: docs
+  - url: https://gitlab.com/antora/demo/demo-component-a.git
+    branches: HEAD
+    edit_url: false
 runtime:
   fetch: true
 asciidoc:
