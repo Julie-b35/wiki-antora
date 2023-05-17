@@ -10,5 +10,7 @@ services:
   antora:
     image: "antora/antora:latest"
     command: tail -f /dev/null
+    environment:
+      IS_TTY: false
     volumes:
       - .:/antora
