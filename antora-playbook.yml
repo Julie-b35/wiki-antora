@@ -11,6 +11,7 @@ content:
     - wiki
     - cours
     - notes
+    - procedures
   - url: https://gitlab.com/antora/demo/demo-component-b.git
     branches: [main, v2.0, v1.0]
     start_path: docs
