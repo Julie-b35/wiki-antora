@@ -20,6 +20,7 @@ content:
     edit_url: false
 runtime:
   fetch: true
+  cache_dir: ./.cache/antora
 asciidoc:
   attributes:
     experimental: ''
