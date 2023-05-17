@@ -21,6 +21,13 @@ content:
 runtime:
   fetch: true
   cache_dir: ./.cache/antora
+  logs:
+    level: info
+    failure_level: warn
+    format: pretty
+    destination:
+      file: ./antora.log
+      append: true
 asciidoc:
   attributes:
     experimental: ''
