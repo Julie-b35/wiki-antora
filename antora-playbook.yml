@@ -21,7 +21,7 @@ content:
 runtime:
   fetch: true
   cache_dir: ./.cache/antora
-  logs:
+  log:
     level: info
     failure_level: warn
     format: pretty
