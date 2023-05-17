@@ -26,7 +26,7 @@ runtime:
     failure_level: warn
     format: pretty
     destination:
-      file: ./antora.log
+      file: ./logs/antora.log
       append: true
 asciidoc:
   attributes:
