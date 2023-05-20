@@ -23,7 +23,6 @@ runtime:
   cache_dir: ./.cache/antora
   log:
     level: info
-    failure_level: warn
     format: pretty
     destination:
       file: ./logs/antora.log
