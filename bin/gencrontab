@@ -1,0 +1,7 @@
+ #!/usr/bin/bash
+
+[ $(id -u) -ne 0 ] && (echo "Ce script doit être lancé en root" ; exit 1;)
+
+#contab min-heure-jour-mois-idSemaine
+echo "0 4 * * * /home/julie/wiki/bin/clean" > /etc/cron.d/clean-wiki 
+systemctl restart cron.service
