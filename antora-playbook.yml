@@ -27,6 +27,9 @@ runtime:
     destination:
       file: ./logs/antora.log
       append: true
+output:
+  clean: true
+  dir: ./public
 asciidoc:
   attributes:
     experimental: ''
