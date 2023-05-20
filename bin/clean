@@ -1,0 +1,7 @@
+ #!/usr/bin/bash
+
+ cd /home/julie/wiki
+ docker composer stop web
+ rm -rvf ./public
+ ./bin/runAntora
+ docker composer start web
