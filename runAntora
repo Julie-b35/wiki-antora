@@ -3,4 +3,6 @@
  #git clone https://github.com/Julie-b35/wiki-antora.git docs &&  cd "$(basename $_ .git)"
 
 cd /home/julie/wiki
+docker compose stop web
 docker compose exec antora antora --log-level=all antora-playbook.yml
+docker compose start web
