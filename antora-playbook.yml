@@ -22,7 +22,7 @@ runtime:
   fetch: true
   cache_dir: ./.cache/antora
   log:
-    level: info
+    level: all
     format: pretty
     destination:
       file: ./logs/antora.log
