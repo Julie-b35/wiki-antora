@@ -1,5 +1,7 @@
  #!/usr/bin/bash
 
+[[ $UID -ne 0 ]] && echo "Ce script doit être lancé en root" ; exit 1;
+
  cd /home/julie/wiki
  docker compose stop web
  rm -rvf ./public
