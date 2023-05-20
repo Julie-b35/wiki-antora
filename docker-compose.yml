@@ -6,7 +6,7 @@ services:
       - "80:80"
     volumes:
       - ./conf:/usr/local/apache2/conf
-      - ./build/site:/usr/local/apache2/htdocs
+      - ./public:/usr/local/apache2/htdocs
   antora:
     image: "antora/antora:latest"
     command: tail -f /dev/null
